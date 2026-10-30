@@ -27,6 +27,6 @@ jobs:
     
   autograder:
     needs: runtime_config
-    uses: sitnikovik/abds/.github/workflows/energosbyt.lab.yml@main
+    uses: sitnikovik/abds/.github/workflows/energosbyt.lab.yml@master
     with:
       lab: ${{ needs.runtime_config.outputs.lab }}
